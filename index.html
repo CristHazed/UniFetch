@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UniFetch | CTU MAIN Delivery System</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="UniFetch home">
+      <span class="brand-mark">UF</span>
+      <span>UniFetch</span>
+    </a>
+
+    <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="main-nav" aria-label="Primary navigation">
+      <a href="#downloads">Downloads</a>
+      <a href="#features">Features</a>
+      <a href="#platforms">Platforms</a>
+      <a href="#guide">Install Guide</a>
+      <a class="nav-cta" href="#downloads">Get App</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <canvas id="heroCanvas" aria-hidden="true"></canvas>
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow">CTU MAIN Delivery System</p>
+        <h1>UniFetch</h1>
+        <p class="hero-copy">Request campus deliveries, accept orders, track fulfilment, and keep every transaction inside one system.</p>
+        <div class="hero-actions">
+          <a class="primary-button" href="downloads/UniFetch-Android.apk" download>Download Android</a>
+          <a class="secondary-button" href="downloads/UniFetch-Desktop-Windows.zip" download>Download Desktop</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="download-band" id="downloads">
+      <div class="section-heading">
+        <p class="eyebrow">Available Builds</p>
+        <h2>Download UniFetch</h2>
+      </div>
+
+      <div class="download-grid">
+        <article class="download-card">
+          <div class="platform-icon">A</div>
+          <div>
+            <h3>Android App</h3>
+            <p>Install UniFetch on Android for requests, delivery application, order status, and GPS updates.</p>
+            <span class="file-meta">APK • 14.8 MB</span>
+          </div>
+          <a class="download-button" href="downloads/UniFetch-Android.apk" download>Download APK</a>
+        </article>
+
+        <article class="download-card">
+          <div class="platform-icon">W</div>
+          <div>
+            <h3>Windows Desktop</h3>
+            <p>Portable desktop package for admin tools, database browser, order management, and full desktop workflows.</p>
+            <span class="file-meta">ZIP • 48.4 MB</span>
+          </div>
+          <a class="download-button" href="downloads/UniFetch-Desktop-Windows.zip" download>Download ZIP</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="feature-band" id="features">
+      <div class="section-heading">
+        <p class="eyebrow">System Tools</p>
+        <h2>Built For Campus Delivery</h2>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card">
+          <span class="feature-number">01</span>
+          <h3>Request Orders</h3>
+          <p>Create a delivery request with building, room details, payment type, and automatic delivery fee calculation.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-number">02</span>
+          <h3>Driver Approval</h3>
+          <p>Students can apply as drivers with ID photos, while admins review and approve them before delivery access opens.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-number">03</span>
+          <h3>Order Tracking</h3>
+          <p>Requester order status includes the fulfiller location view and delivery progress inside the system.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="platform-band" id="platforms">
+      <div class="platform-copy">
+        <p class="eyebrow">Two Platforms</p>
+        <h2>Android for students. Desktop for admins.</h2>
+        <p>The mobile app handles daily request and delivery use. The desktop version supports account management, admin review, database checks, reports, and operational control.</p>
+      </div>
+      <div class="mockup-row" aria-label="UniFetch platform preview">
+        <div class="phone-mockup">
+          <div class="mockup-top"></div>
+          <div class="mockup-title">Order Status</div>
+          <div class="map-preview">
+            <span></span>
+          </div>
+          <div class="mockup-line long"></div>
+          <div class="mockup-line"></div>
+        </div>
+        <div class="desktop-mockup">
+          <div class="window-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="admin-title">Admin Panel</div>
+          <div class="table-preview">
+            <span></span><span></span><span></span>
+            <span></span><span></span><span></span>
+            <span></span><span></span><span></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="guide-band" id="guide">
+      <div class="section-heading">
+        <p class="eyebrow">Install Guide</p>
+        <h2>Before You Open The App</h2>
+      </div>
+      <div class="guide-list">
+        <div>
+          <strong>Android</strong>
+          <p>Download the APK, allow installation from your browser or file manager, then open UniFetch.</p>
+        </div>
+        <div>
+          <strong>Windows</strong>
+          <p>Download the ZIP, extract the folder, then open UniFetch.exe inside the extracted package.</p>
+        </div>
+        <div>
+          <strong>Accounts</strong>
+          <p>Use your student ID, email, birthdate, and password when creating an account.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>UniFetch</span>
+    <span>CTU MAIN Delivery System</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
