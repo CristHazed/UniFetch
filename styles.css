@@ -378,7 +378,7 @@ h1 {
 }
 
 .mockup-title,
-.admin-title {
+.dashboard-title {
   font-weight: 900;
   color: var(--ink);
 }
