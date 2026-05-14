@@ -1,0 +1,32 @@
+[Version]
+Class=IEXPRESS
+SEDVersion=3
+[Options]
+PackagePurpose=InstallApp
+ShowInstallProgramWindow=1
+HideExtractAnimation=0
+UseLongFileName=1
+InsideCompressed=0
+CAB_FixedSize=0
+CAB_ResvCodeSigning=0
+RebootMode=N
+InstallPrompt=
+DisplayLicense=
+FinishMessage=UniFetch has been installed. A desktop shortcut was created.
+TargetName=C:\Users\crist\OneDrive\Documents\UniFetchWebsite\downloads\UniFetch-Setup.exe
+FriendlyName=UniFetch Setup
+AppLaunched=Setup-UniFetch.bat
+PostInstallCmd=<None>
+AdminQuietInstCmd=
+UserQuietInstCmd=
+SourceFiles=SourceFiles
+[Strings]
+FILE0="Setup-UniFetch.bat"
+FILE1="InstallFromPayload.ps1"
+FILE2="payload.zip"
+[SourceFiles]
+SourceFiles0=C:\Users\crist\OneDrive\Documents\UniFetchWebsite\setup-build\
+[SourceFiles0]
+%FILE0%=
+%FILE1%=
+%FILE2%=
